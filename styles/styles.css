@@ -1,0 +1,105 @@
+/* Page background + text */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f7f2;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #2e6b2e;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #cfcfcf;
+}
+
+/* Subheadings */
+h2 {
+    color: #3a7a3a;
+    border-left: 5px solid #3a7a3a;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Image styling */
+ img{
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Navigation list */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Buttons for links */
+ul li a {
+    background-color: #2e6b2e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+ul li a:hover {
+    background-color: #1f4d1f;
+    transform: scale(1.05);
+}
+
+/* External link styling */
+a {
+    color: #2e6b2e;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.horsesPic {
+    background-color: lightblue;   /* background behind the image */
+    border: 5px solid black;       /* simple border */
+    padding: 10px;                 /* space between image + border */
+    display: block;
+    margin: 20px auto;             /* centers the image */
+}
+.lambPictures {
+    background-color: lightblue;   /* background behind the image */
+    border: 5px solid black;       /* simple border */
+    padding: 10px;                 /* space between image + border */
+    display: block;
+    margin: 20px auto;             /* centers the image */
+}
+.hensPictures {
+    background-color: lightblue;   /* background behind the image */
+    border: 5px solid black;       /* simple border */
+    padding: 10px;                 /* space between image + border */
+    display: block;
+    margin: 20px auto;             /* centers the image */
+}
+.calfPictures {
+    background-color: lightblue;   /* background behind the image */
+    border: 5px solid black;       /* simple border */
+    padding: 10px;                 /* space between image + border */
+    display: block;
+    margin: 20px auto;             /* centers the image */
+}
